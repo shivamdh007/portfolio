@@ -307,4 +307,17 @@ footer {
     background-color: #127df9;
     color: white;
 }
+.btn:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb); /* Reverse gradient */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px); /* Adds a lifting effect */
+}
+
+/* Certificates Gallery Styling */
+.certificates-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
 
