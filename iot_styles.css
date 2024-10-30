@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+.images-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.images-gallery img {
+    width: 100%;
+    max-width: 200px; /* Set a max-width for the images */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.images-gallery img:hover {
+    transform: scale(1.05); /* Scale up on hover for an attractive effect */
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.team-members {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.team-members h2 {
+    color: #333;
+}
+
+.team-members ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.team-members li {
+    padding: 5px 0;
+    font-size: 1.2em;
+}
+.project-report {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-report .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #03f30b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-report .btn:hover {
+    background-color: #45a049;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualifications - Shivam Dhuri</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Qualifications & Certificates</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <section class="qualifications-section">
+        <h2>Academic Qualifications</h2>
+        <ul class="qualifications-list">
+            <li><strong>B.E. in Computer Science (AIML) - SSPM COE KANKAVLI</strong> - Second Year, Ongoing.</li>
+            <li><strong>HSC</strong> - SPKM SAWANTWADI</li>
+            <li><strong>SSC</strong> - MHS SAWANTWADI</li>
+        </ul>
+    </section>
+
+    <section class="certificates-section">
+        <h2>Certificates</h2>
+        <div class="certificates-gallery">
+            <div class="certificate">
+                <img src="JAVA.png" alt="Introduction To Java Programming" onclick="openModal('JAVA.png')">
+                <p>Introduction To Java Programming</p>
+            </div>
+            <div class="certificate">
+                <img src="AI.png" alt="Introduction To Artificial Intelligence" onclick="openModal('AI.png')">
+                <p>Introduction To Artificial Intelligence</p>
+            </div>
+            <div class="certificate">
+                <img src="GOOGLE.png" alt="Google Analytics" onclick="openModal('GOOGLE.png')">
+                <p>Google Analytics</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Structure -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Shivam Dhuri. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
